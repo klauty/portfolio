@@ -16,7 +16,7 @@ module.exports = function renderScripts() {
     );
     const destPathScriptsJS = upath.resolve(
         upath.dirname(__filename),
-        "../dist/js/scripts.js"
+        "../docs/js/scripts.js"
     );
 
     const copyright = `/*!
